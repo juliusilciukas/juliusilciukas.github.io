@@ -97,6 +97,9 @@ img {
 
 
 
+  
+  
+
   .paperTitle{
     margin-bottom:0px;
   }
@@ -106,8 +109,23 @@ img {
   .responsive-iframe{
     margin-right: 0.5em;
   }
-  
+
+
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: inline;
+  }
   @media screen and (max-width: 1000px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: inline;
+    }
+
+
     .column.left, .column.right {
       width: 100%;
     }
