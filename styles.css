@@ -103,7 +103,9 @@ img {
   .paperDetails{
     margin:0px;
   }
-
+  .responsive-iframe{
+    margin-right: 0.5em;
+  }
   
   @media screen and (max-width: 1000px) {
     .column.left, .column.right {
@@ -158,6 +160,7 @@ img {
   margin-right: 0em;
     padding:0;
 }
+
 
 
 
