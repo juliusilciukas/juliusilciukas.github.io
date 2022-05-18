@@ -150,8 +150,8 @@ img {
     padding:10px;
 }
 .verticalWrap{
+  max-width:min(90%,50em);
   margin:auto;
-  width:94%;
 }
 
 .paperList{
