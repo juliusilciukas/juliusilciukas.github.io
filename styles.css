@@ -55,11 +55,12 @@ p{
     padding: 10px;
     text-decoration: none;
   }
-
+/* TURNING OFF HOVERING
 #nav a:hover {
     color: white;
     background-color: gray;
 }
+*/
 body {
     max-width:50em;
     margin: auto;
