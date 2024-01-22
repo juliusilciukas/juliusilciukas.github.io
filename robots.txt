@@ -2,4 +2,9 @@ User-agent: *
 Disallow: /slides
 Disallow: /slides.pdf
 Disallow: /slides.html
+Disallow: /bounding.html
+Disallow: /bounding.pdf
+Disallow: /bounding
+
+
 
