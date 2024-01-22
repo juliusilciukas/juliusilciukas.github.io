@@ -1,3 +1,5 @@
 User-agent: *
-Disallow: /bounding
-Disallow: /bounding.pdf
+Disallow: /slides
+Disallow: /slides.pdf
+Disallow: /slides.html
+
