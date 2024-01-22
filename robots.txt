@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /bounding
+Disallow: /bounding.pdf
