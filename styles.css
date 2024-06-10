@@ -197,6 +197,13 @@ img {
 }
 
 .abstract {
-  display: none;
-  margin-top: 5px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Abstract Content Style */
+.abstract-content {
+  padding: 10px;
+  background-color: #f1f1f1;
 }
