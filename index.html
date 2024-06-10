@@ -74,10 +74,10 @@
     <script>
         function toggleAbstract(id) {
             var abstract = document.getElementById(id);
-            if (abstract.style.display === "none" || abstract.style.display === "") {
-                abstract.style.display = "block";
-            } else {
+            if (abstract.style.display === "block") {
                 abstract.style.display = "none";
+            } else {
+                abstract.style.display = "block";
             }
         }
     </script>
