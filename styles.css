@@ -197,7 +197,7 @@ img {
 }
 
 .abstract {
-  margin-top: 5px;
+  margin-top: 3px;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
