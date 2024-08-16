@@ -36,32 +36,31 @@ p {
 }
 .navItem {
   list-style-type: none;
-  margin: 0px 1px; /* Add a small margin between items */
+  margin: 0px 1px;
   padding: 0;
   overflow: hidden;
-  border: none; /* Removed border */
-  background-color: white; /* White background */
+  border: none;
+  background-color: white;
   float: none;
   display: inline-block;
-  border-radius: 3px; /* Rounded edges, similar to paper buttons */
-  width: auto; /* Auto width to fit text */
+  border-radius: 3px;
+  width: auto;
 }
 #nav a {
-  border-radius: 3px; /* Rounded edges, similar to paper buttons */
+  border-radius: 3px;
   display: block;
-  color: #007bff; /* Blue text color */
+  color: #007bff;
   text-align: center;
-  padding: 10px 15px; /* Adjusted padding for better fitting */
+  padding: 10px 15px;
   text-decoration: none;
-  background-color: white; /* White background */
-  transition: background-color 0.3s ease; /* Smooth hover transition */
-  white-space: nowrap; /* Prevent text from wrapping */
+  background-color: white;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
 }
 
-/* Menu Hover Effect */
 #nav a:hover {
-  color: #007bff; /* Keep blue text on hover */
-  background-color: #f1f1f1; /* Light gray background on hover */
+  color: #007bff;
+  background-color: #f1f1f1;
 }
 
 body {
@@ -180,28 +179,25 @@ img {
 }
 
 .button {
-  margin-right: -1px; /* Reduced margin for smaller gap */
-  padding: 5px 10px; /* Adjusted padding for better button size */
-  border: none; /* Removed border */
-  border-radius: 3px; /* Rounded edges */
-  background-color: #0056b3; /* Slightly darker blue background */
-  color: white; /* White text color */
+  margin-right: -1px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #0056b3;
+  color: white;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
   text-align: center;
   font-size: 14px;
   line-height: 20px;
-  transition: background-color 0.3s ease; /* Smooth hover transition */
+  transition: background-color 0.3s ease;
 }
 
-/* Hover Effect */
 .button:hover {
-  background-color: #004a99; /* Even darker blue on hover */
+  background-color: #004a99;
 }
 
-
-/* Abstract Content Style */
 .abstract-content {
   padding: 10px;
   background-color: #f1f1f1;
