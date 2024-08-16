@@ -3,10 +3,10 @@ h1 {
   color: black; 
 }
 div {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 * {
-font-family: Sans-serif;
+  font-family: Sans-serif;
 }
 
 .navbar-default .navbar-nav>li {
@@ -36,31 +36,33 @@ p {
 }
 .navItem {
   list-style-type: none;
-  margin: 0px;
+  margin: 0px 1px; /* Add a small margin between items */
   padding: 0;
   overflow: hidden;
-  border: solid 1.5px black;
-  background-color: white;
-  min-width: 20%;
+  border: none; /* Removed border */
+  background-color: white; /* White background */
   float: none;
   display: inline-block;
-  border-radius: 0pt;
+  border-radius: 3px; /* Rounded edges, similar to paper buttons */
+  width: auto; /* Auto width to fit text */
 }
 #nav a {
-  border-radius: 0pt;
+  border-radius: 3px; /* Rounded edges, similar to paper buttons */
   display: block;
-  color: black;
+  color: #007bff; /* Blue text color */
   text-align: center;
-  padding: 10px;
+  padding: 10px 15px; /* Adjusted padding for better fitting */
   text-decoration: none;
+  background-color: white; /* White background */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+  white-space: nowrap; /* Prevent text from wrapping */
 }
 
-/* TURNING OFF HOVERING
+/* Menu Hover Effect */
 #nav a:hover {
-  color: white;
-  background-color: gray;
+  color: #007bff; /* Keep blue text on hover */
+  background-color: #f1f1f1; /* Light gray background on hover */
 }
-*/
 
 body {
   max-width: 50em;
@@ -172,36 +174,32 @@ img {
   }
 }
 
-/* New button styles */
 .button-container {
   margin-top: 5px;
   text-align: left;
 }
+
 .button {
-  margin-right: 1px;
-  padding: 5px 1px;
-  border: solid 1.5px black;
-  background-color: white;
+  margin-right: -1px; /* Reduced margin for smaller gap */
+  padding: 5px 10px; /* Adjusted padding for better button size */
+  border: none; /* Removed border */
+  border-radius: 3px; /* Rounded edges */
+  background-color: #0056b3; /* Slightly darker blue background */
+  color: white; /* White text color */
   display: inline-block;
   text-decoration: none;
-  color: black;
   cursor: pointer;
   text-align: center;
-  min-width: 70px;
   font-size: 14px;
   line-height: 20px;
-}
-.button a {
-  text-decoration: none;
-  color: black;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
-.abstract {
-  margin-top: 3px;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.2s ease-out;
+/* Hover Effect */
+.button:hover {
+  background-color: #004a99; /* Even darker blue on hover */
 }
+
 
 /* Abstract Content Style */
 .abstract-content {
@@ -214,4 +212,11 @@ img {
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+}
+
+.abstract {
+  margin-top: 3px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
 }
