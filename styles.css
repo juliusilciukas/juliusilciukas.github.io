@@ -64,7 +64,7 @@ p {
 }
 
 body {
-  max-width: 60em;
+  max-width: 55em;
   margin: auto;
   padding: 10px;
 }
@@ -79,12 +79,12 @@ img {
 }
 
 .left {
-  width: 33%;
+  width: 30%;
   text-align: left;
 }
 
 .right {
-  width: 66%;
+  width: 70%;
   text-align: right;
 }
 
