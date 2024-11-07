@@ -3,7 +3,7 @@ Disallow: /slides
 Disallow: /slides.pdf
 Disallow: /slides.html
 Disallow: /bounding.html
-Disallow: /bounding.pdf
+Disallow: /ILCIUKAS_SLIDES.pdf
 Disallow: /bounding
 
 
