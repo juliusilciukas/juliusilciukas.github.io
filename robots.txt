@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /slides
 Disallow: /ONLY_CHILD_ILCIUKAS.pdf
 Disallow: /slides.html
+Disallow: /s.html
 Disallow: /bounding.html
 Disallow: /ILCIUKAS_SLIDES.pdf
 Disallow: /bounding
