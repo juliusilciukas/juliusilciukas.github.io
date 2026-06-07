@@ -7,6 +7,6 @@ Disallow: /bounding.html
 Disallow: /ILCIUKAS_SLIDES.pdf
 Disallow: /bounding
 Disallow: /OnlyChild2024December.pdf
-
+Disallow: /OnlyChild.pdf
 
 
