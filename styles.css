@@ -477,3 +477,8 @@ img {
   background-color: #004a99;
   color: white;
 }
+
+/* Add spacing below expanded abstracts without affecting collapsed ones. */
+.abstract > p {
+  padding-bottom: 18px;
+}
